@@ -1,0 +1,17 @@
+{
+  "name": "reformatjs",
+  "version": "1.0.1",
+  "description": "reformats the thigns",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "al",
+  "license": "ISC",
+  "dependencies": {
+    "jscodeshift": "^0.3.8",
+    "recast": "^0.10.38"
+  },
+  "bin": {
+    "reformat": "index.js"
+  }
+}
