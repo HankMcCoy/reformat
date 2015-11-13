@@ -8,8 +8,14 @@
   "author": "al",
   "license": "ISC",
   "dependencies": {
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.9.0",
+    "eslint-plugin-react": "^3.8.0",
+    "js-beautify": "^1.5.10",
+    "js-codemod": "^7.0.0",
     "jscodeshift": "^0.3.8",
-    "recast": "^0.10.38"
+    "recast": "^0.10.38",
+    "semi": "^4.0.4"
   },
   "bin": {
     "reformat": "index.js"
